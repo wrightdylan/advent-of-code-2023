@@ -7,12 +7,12 @@ Solutions make use of `cargo-aoc` code helper ([here](https://github.com/gobanos
 ## Solutions
 
 All solutions linked below:
-| Day | Title | A :star: | B :star: | Solution | Rating |
+| Day | Title | 1 :star: | 2 :star: | Solution | Rating |
 |:-|:-|:-|:-|:-|:-|
 | [01](https://adventofcode.com/2023/day/1)  | Trebuchet?!                     | 131µs  | 4.25ms | [day01.rs](./src/day01.rs) | :monocle_face: |
 | [02](https://adventofcode.com/2023/day/2)  | Cube Conundrum                  | 1.75µs | 1.71µs | [day02.rs](./src/day02.rs) | :star_struck:  |
 | [03](https://adventofcode.com/2023/day/3)  | Gear Ratios                     | 669µs  | 387µs  | [day03.rs](./src/day03.rs) | :weary::joy: |
-| [04](https://adventofcode.com/2023/day/4)  | Scratchcards                    |  |  |  |  |
+| [04](https://adventofcode.com/2023/day/4)  | Scratchcards                    | 2.45µs | 3.43µs | [day04.rs](./src/day04.rs) | :laughing:  |
 | [05](https://adventofcode.com/2023/day/5)  | If You Give A Seed A Fertilizer |  |  |  |  |
 | [06](https://adventofcode.com/2023/day/6)  | Wait For It                     |  |  |  |  |
 | [07](https://adventofcode.com/2023/day/7)  | Camel Cards                     |  |  |  |  |
