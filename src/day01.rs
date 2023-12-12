@@ -58,6 +58,7 @@ fn line_parser(line: &str) -> Vec<u32> {
     nums
 }
 
+#[cfg(test)]
 mod tests {
     use super::*;
 
