@@ -17,7 +17,7 @@ All solutions linked below:
 | [06](https://adventofcode.com/2023/day/6)  | Wait For It                     | 2.71µs | 2.49µs | [day06.rs](./src/day06.rs) | :relaxed:      |
 | [07](https://adventofcode.com/2023/day/7)  | Camel Cards                     | 499ms  | 472ms  | [day07.rs](./src/day07.rs) | :confounded:   |
 | [08](https://adventofcode.com/2023/day/8)  | Haunted Wasteland               | 1.33ms | 8.67ms | [day08.rs](./src/day08.rs) | :scream:       |
-<!--| [09](https://adventofcode.com/2023/day/9)  | Mirage Maintenance              |  |  | [day09.rs](./src/day09.rs) |  |-->
+| [09](https://adventofcode.com/2023/day/9)  | Mirage Maintenance              | 150ms  | 154ms  | [day09.rs](./src/day09.rs) | :thinking:     |
 <!--| [10](https://adventofcode.com/2023/day/10) | Pipe Maze                       |  |  | [day10.rs](./src/day10.rs) |  |-->
 <!--| [11](https://adventofcode.com/2023/day/11) | Cosmic Expansion                |  |  | [day11.rs](./src/day11.rs) |  |-->
 <!--| [12](https://adventofcode.com/2023/day/12) | Hot Springs                     |  |  | [day12.rs](./src/day12.rs) |  |-->
@@ -28,6 +28,7 @@ All solutions linked below:
 <!--| [17](https://adventofcode.com/2023/day/17) | Clumsy Crucible                 |  |  | [day17.rs](./src/day17.rs) |  |-->
 <!--| [18](https://adventofcode.com/2023/day/18) | Lavaduct Lagoon                 |  |  | [day18.rs](./src/day18.rs) |  |-->
 <!--| [19](https://adventofcode.com/2023/day/19) | Aplenty                         |  |  | [day19.rs](./src/day19.rs) |  |-->
+<!--| [20](https://adventofcode.com/2023/day/20) | Pulse Propagation               |  |  | [day20.rs](./src/day20.rs) |  |-->
 
 ## Notes
 1. Binge watching Travellers wasn't helping me keep up with the Advent Calendar. If only it was chocolate :chocolate_bar:.
