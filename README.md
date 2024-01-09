@@ -18,7 +18,7 @@ All solutions linked below:
 | [07](https://adventofcode.com/2023/day/7)  | Camel Cards                     | 499ms  | 472ms  | [day07.rs](./src/day07.rs) | :confounded:   |
 | [08](https://adventofcode.com/2023/day/8)  | Haunted Wasteland               | 1.33ms | 8.67ms | [day08.rs](./src/day08.rs) | :scream:       |
 | [09](https://adventofcode.com/2023/day/9)  | Mirage Maintenance              | 150ms  | 154ms  | [day09.rs](./src/day09.rs) | :thinking:     |
-<!--| [10](https://adventofcode.com/2023/day/10) | Pipe Maze                       |  |  | [day10.rs](./src/day10.rs) |  |-->
+| [10](https://adventofcode.com/2023/day/10) | Pipe Maze                       | 462µs  | 698µs  | [day10.rs](./src/day10.rs) | :confounded:   |
 <!--| [11](https://adventofcode.com/2023/day/11) | Cosmic Expansion                |  |  | [day11.rs](./src/day11.rs) |  |-->
 <!--| [12](https://adventofcode.com/2023/day/12) | Hot Springs                     |  |  | [day12.rs](./src/day12.rs) |  |-->
 <!--| [13](https://adventofcode.com/2023/day/13) | Point of Incidence              |  |  | [day13.rs](./src/day13.rs) |  |-->
@@ -29,9 +29,15 @@ All solutions linked below:
 <!--| [18](https://adventofcode.com/2023/day/18) | Lavaduct Lagoon                 |  |  | [day18.rs](./src/day18.rs) |  |-->
 <!--| [19](https://adventofcode.com/2023/day/19) | Aplenty                         |  |  | [day19.rs](./src/day19.rs) |  |-->
 <!--| [20](https://adventofcode.com/2023/day/20) | Pulse Propagation               |  |  | [day20.rs](./src/day20.rs) |  |-->
+<!--| [21](https://adventofcode.com/2023/day/21) | Step Counter                    |  |  | [day21.rs](./src/day21.rs) |  |-->
+<!--| [22](https://adventofcode.com/2023/day/22) | Sand Slabs                      |  |  | [day22.rs](./src/day22.rs) |  |-->
+<!--| [23](https://adventofcode.com/2023/day/23) | A Long Walk                     |  |  | [day23.rs](./src/day23.rs) |  |-->
+<!--| [24](https://adventofcode.com/2023/day/24) | Never Tell Me The Odds          |  |  | [day24.rs](./src/day24.rs) |  |-->
+<!--| [25](https://adventofcode.com/2023/day/25) | Snowverload                     |  |  | [day25.rs](./src/day25.rs) |  |-->
 
 ## Notes
 1. Binge watching Travellers wasn't helping me keep up with the Advent Calendar. If only it was chocolate :chocolate_bar:.
 2. Day 3 part 1 was a bit of a struggle, but part 2 took literally seconds :laughing:.
 3. Day 5 part 2 was 273s single threaded, but was 104s multithreaded. I was hoping for more performance.
 4. It turns out part tests work better when calling the correct function. Who knew?
+5. It turns out functions work as intended when all branches are actually different. :man_facepalming:
