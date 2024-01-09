@@ -3,7 +3,7 @@ name = "aoc_2023"
 version = "0.1.0"
 author = ["Dylan Wright"]
 edition = "2021"
-rust-version = "1.74.1"
+rust-version = "1.75.0"
 
 [registeries.crates-io]
 protocol = "sparse"
