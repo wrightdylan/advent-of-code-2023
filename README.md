@@ -19,7 +19,7 @@ All solutions linked below:
 | [08](https://adventofcode.com/2023/day/8)  | Haunted Wasteland               | 1.33ms | 8.67ms | [day08.rs](./src/day08.rs) | :scream:       |
 | [09](https://adventofcode.com/2023/day/9)  | Mirage Maintenance              | 150ms  | 154ms  | [day09.rs](./src/day09.rs) | :thinking:     |
 | [10](https://adventofcode.com/2023/day/10) | Pipe Maze                       | 462µs  | 698µs  | [day10.rs](./src/day10.rs) | :confounded:   |
-<!--| [11](https://adventofcode.com/2023/day/11) | Cosmic Expansion                |  |  | [day11.rs](./src/day11.rs) |  |-->
+| [11](https://adventofcode.com/2023/day/11) | Cosmic Expansion                | 1.63ms | 1.63ms | [day11.rs](./src/day11.rs) | :nerd_face:    |
 <!--| [12](https://adventofcode.com/2023/day/12) | Hot Springs                     |  |  | [day12.rs](./src/day12.rs) |  |-->
 <!--| [13](https://adventofcode.com/2023/day/13) | Point of Incidence              |  |  | [day13.rs](./src/day13.rs) |  |-->
 <!--| [14](https://adventofcode.com/2023/day/14) | Parabolic Reflector Dish        |  |  | [day14.rs](./src/day14.rs) |  |-->
@@ -41,3 +41,5 @@ All solutions linked below:
 3. Day 5 part 2 was 273s single threaded, but was 104s multithreaded. I was hoping for more performance.
 4. It turns out part tests work better when calling the correct function. Who knew?
 5. It turns out functions work as intended when all branches are actually different. :man_facepalming:
+6. That's enough of a hiatus between days 9 and 10.
+7. I've got something similar to day 11 involving [star clusters](https://github.com/wrightdylan/cncalc).
