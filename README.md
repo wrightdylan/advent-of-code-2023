@@ -20,7 +20,7 @@ All solutions linked below:
 | [09](https://adventofcode.com/2023/day/9)  | Mirage Maintenance              | 150ms  | 154ms  | [day09.rs](./src/day09.rs) | :thinking:     |
 | [10](https://adventofcode.com/2023/day/10) | Pipe Maze                       | 462µs  | 698µs  | [day10.rs](./src/day10.rs) | :confounded:   |
 | [11](https://adventofcode.com/2023/day/11) | Cosmic Expansion                | 1.63ms | 1.63ms | [day11.rs](./src/day11.rs) | :nerd_face:    |
-<!--| [12](https://adventofcode.com/2023/day/12) | Hot Springs                     |  |  | [day12.rs](./src/day12.rs) |  |-->
+| [12](https://adventofcode.com/2023/day/12) | Hot Springs                     | 1.60ms | 11.2ms | [day12.rs](./src/day12.rs) | :hot_face:     |
 <!--| [13](https://adventofcode.com/2023/day/13) | Point of Incidence              |  |  | [day13.rs](./src/day13.rs) |  |-->
 <!--| [14](https://adventofcode.com/2023/day/14) | Parabolic Reflector Dish        |  |  | [day14.rs](./src/day14.rs) |  |-->
 <!--| [15](https://adventofcode.com/2023/day/15) | Lens Library                    |  |  | [day15.rs](./src/day15.rs) |  |-->
@@ -43,3 +43,4 @@ All solutions linked below:
 5. It turns out functions work as intended when all branches are actually different. :man_facepalming:
 6. That's enough of a hiatus between days 9 and 10.
 7. I've got something similar to day 11 involving [star clusters](https://github.com/wrightdylan/cncalc).
+8. Day 12 required learning more about non-deterministic finite automata and powerset construction. There is an excellent series by Neso Academy on YouTube called Theory of Computation & Automata Theory.
