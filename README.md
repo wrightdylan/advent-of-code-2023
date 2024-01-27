@@ -21,7 +21,7 @@ All solutions linked below:
 | [10](https://adventofcode.com/2023/day/10) | Pipe Maze                       | 462µs  | 698µs  | [day10.rs](./src/day10.rs) | :confounded:   |
 | [11](https://adventofcode.com/2023/day/11) | Cosmic Expansion                | 1.63ms | 1.63ms | [day11.rs](./src/day11.rs) | :nerd_face:    |
 | [12](https://adventofcode.com/2023/day/12) | Hot Springs                     | 1.60ms | 11.2ms | [day12.rs](./src/day12.rs) | :hot_face:     |
-<!--| [13](https://adventofcode.com/2023/day/13) | Point of Incidence              |  |  | [day13.rs](./src/day13.rs) |  |-->
+| [13](https://adventofcode.com/2023/day/13) | Point of Incidence              | 8.17µs | 809µs  | [day13.rs](./src/day13.rs) | :woozy_face:   |
 <!--| [14](https://adventofcode.com/2023/day/14) | Parabolic Reflector Dish        |  |  | [day14.rs](./src/day14.rs) |  |-->
 <!--| [15](https://adventofcode.com/2023/day/15) | Lens Library                    |  |  | [day15.rs](./src/day15.rs) |  |-->
 <!--| [16](https://adventofcode.com/2023/day/16) | The Floor Will Be Lava          |  |  | [day16.rs](./src/day16.rs) |  |-->
@@ -44,3 +44,4 @@ All solutions linked below:
 6. That's enough of a hiatus between days 9 and 10.
 7. I've got something similar to day 11 involving [star clusters](https://github.com/wrightdylan/cncalc).
 8. Day 12 required learning more about non-deterministic finite automata and powerset construction. There is an excellent series by Neso Academy on YouTube called Theory of Computation & Automata Theory.
+9. It took 3 iterations to get day 13 working right.
