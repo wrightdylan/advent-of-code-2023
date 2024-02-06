@@ -23,7 +23,7 @@ All solutions linked below:
 | [12](https://adventofcode.com/2023/day/12) | Hot Springs                     | 1.60ms | 11.2ms | [day12.rs](./src/day12.rs) | :hot_face:     |
 | [13](https://adventofcode.com/2023/day/13) | Point of Incidence              | 8.17µs | 809µs  | [day13.rs](./src/day13.rs) | :woozy_face:   |
 | [14](https://adventofcode.com/2023/day/14) | Parabolic Reflector Dish        | 958µs  | 1.84s  | [day14.rs](./src/day14.rs) | :grimacing:    |
-<!--| [15](https://adventofcode.com/2023/day/15) | Lens Library                    |  |  | [day15.rs](./src/day15.rs) |  |-->
+| [15](https://adventofcode.com/2023/day/15) | Lens Library                    | 45.4µs | 235µs  | [day15.rs](./src/day15.rs) | :blush::grin:  |
 <!--| [16](https://adventofcode.com/2023/day/16) | The Floor Will Be Lava          |  |  | [day16.rs](./src/day16.rs) |  |-->
 <!--| [17](https://adventofcode.com/2023/day/17) | Clumsy Crucible                 |  |  | [day17.rs](./src/day17.rs) |  |-->
 <!--| [18](https://adventofcode.com/2023/day/18) | Lavaduct Lagoon                 |  |  | [day18.rs](./src/day18.rs) |  |-->
@@ -46,3 +46,4 @@ All solutions linked below:
 8. Day 12 required learning more about non-deterministic finite automata and powerset construction. There is an excellent series by Neso Academy on YouTube called Theory of Computation & Automata Theory.
 9. It took 3 iterations to get day 13 working right.
 10. For Day 14 I used Floyd's and Brent's algorithms for cycle detection; the latter is 0.6s faster.
+11. Day 15 was suspiciously easy. That's never a good sign. :thinking:
