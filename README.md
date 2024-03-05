@@ -25,7 +25,7 @@ All solutions linked below:
 | [14](https://adventofcode.com/2023/day/14) | Parabolic Reflector Dish        | 958µs  | 1.84s  | [day14.rs](./src/day14.rs) | :grimacing:    |
 | [15](https://adventofcode.com/2023/day/15) | Lens Library                    | 45.4µs | 235µs  | [day15.rs](./src/day15.rs) | :blush::grin:  |
 | [16](https://adventofcode.com/2023/day/16) | The Floor Will Be Lava          | 3.99ms | 286ms  | [day16.rs](./src/day16.rs) | :relieved:     |
-<!--| [17](https://adventofcode.com/2023/day/17) | Clumsy Crucible                 |  |  | [day17.rs](./src/day17.rs) |  |-->
+| [17](https://adventofcode.com/2023/day/17) | Clumsy Crucible                 | 217ms  | 690ms  | [day17.rs](./src/day17.rs) | :woozy_face:   |
 <!--| [18](https://adventofcode.com/2023/day/18) | Lavaduct Lagoon                 |  |  | [day18.rs](./src/day18.rs) |  |-->
 <!--| [19](https://adventofcode.com/2023/day/19) | Aplenty                         |  |  | [day19.rs](./src/day19.rs) |  |-->
 <!--| [20](https://adventofcode.com/2023/day/20) | Pulse Propagation               |  |  | [day20.rs](./src/day20.rs) |  |-->
@@ -48,3 +48,4 @@ All solutions linked below:
 10. For Day 14 I used Floyd's and Brent's algorithms for cycle detection; the latter is 0.6s faster.
 11. Day 15 was suspiciously easy. That's never a good sign. :thinking:
 12. For day 16, this was my first time writing a depth-first search, and it ran perfectly on the first attempt :exploding_head:. Because I tend to write these solutions generalised for robustness, it effectively meant part 2 was already solved as well.
+13. For day 17, I was originally going for Dijkstra's, but decided to needlessly overcomplicate things by including a visualiser to see the shortest path discovered. This could be a bit faster though.
