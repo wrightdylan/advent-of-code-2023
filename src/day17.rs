@@ -137,7 +137,7 @@ impl City {
                 // self.visualise_visited(visited);
                 return Some(node.g);
             }
-            if visited.get(&node.into()).is_some_and(|&node| node.g < node.g) {
+            if visited.get(&node.into()).is_some_and(|&n| n.g < node.g) {
                 continue;
             }
             if !visited.contains_key(&node.into()) {
@@ -146,7 +146,7 @@ impl City {
                     let next_g = node.g + self.map.get(&pos).unwrap();
                     let steps = if node.continues(dir) { node.steps + 1 } else { 1 };
                     let next = Node::from(pos, NodeKey::from(node.pos, node.dir, node.steps), target, next_g, dir, steps);
-                    if next.steps > max_steps || visited.get(&next.into()).is_some_and(|&node| node.g <= next.g) {
+                    if next.steps > max_steps || visited.get(&next.into()).is_some_and(|&n| n.g <= next.g) {
                         continue;
                     }
                     if !node.continues(dir) && node.steps < min_steps {
