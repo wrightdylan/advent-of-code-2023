@@ -28,7 +28,7 @@ All solutions linked below:
 | [17](https://adventofcode.com/2023/day/17) | Clumsy Crucible                 | 217ms  | 690ms  | [day17.rs](./src/day17.rs) | :woozy_face:   |
 | [18](https://adventofcode.com/2023/day/18) | Lavaduct Lagoon                 | 12.6µs | 6.21µs | [day18.rs](./src/day18.rs) | :innocent:     |
 | [19](https://adventofcode.com/2023/day/19) | Aplenty                         | 67.0µs | 110µs  | [day19.rs](./src/day19.rs) | :woozy_face:   |
-<!--| [20](https://adventofcode.com/2023/day/20) | Pulse Propagation               |  |  | [day20.rs](./src/day20.rs) |  |-->
+| [20](https://adventofcode.com/2023/day/20) | Pulse Propagation               | 5.00ms | 21.0ms | [day20.rs](./src/day20.rs) | :sob:          |
 <!--| [21](https://adventofcode.com/2023/day/21) | Step Counter                    |  |  | [day21.rs](./src/day21.rs) |  |-->
 <!--| [22](https://adventofcode.com/2023/day/22) | Sand Slabs                      |  |  | [day22.rs](./src/day22.rs) |  |-->
 <!--| [23](https://adventofcode.com/2023/day/23) | A Long Walk                     |  |  | [day23.rs](./src/day23.rs) |  |-->
