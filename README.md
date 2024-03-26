@@ -29,7 +29,7 @@ All solutions linked below:
 | [18](https://adventofcode.com/2023/day/18) | Lavaduct Lagoon                 | 12.6µs | 6.21µs | [day18.rs](./src/day18.rs) | :innocent:     |
 | [19](https://adventofcode.com/2023/day/19) | Aplenty                         | 67.0µs | 110µs  | [day19.rs](./src/day19.rs) | :woozy_face:   |
 | [20](https://adventofcode.com/2023/day/20) | Pulse Propagation               | 5.00ms | 21.0ms | [day20.rs](./src/day20.rs) | :sob:          |
-<!--| [21](https://adventofcode.com/2023/day/21) | Step Counter                    |  |  | [day21.rs](./src/day21.rs) |  |-->
+| [21](https://adventofcode.com/2023/day/21) | Step Counter                    | 2.31ms | 120ms  | [day21.rs](./src/day21.rs) | :persevere:    |
 <!--| [22](https://adventofcode.com/2023/day/22) | Sand Slabs                      |  |  | [day22.rs](./src/day22.rs) |  |-->
 <!--| [23](https://adventofcode.com/2023/day/23) | A Long Walk                     |  |  | [day23.rs](./src/day23.rs) |  |-->
 <!--| [24](https://adventofcode.com/2023/day/24) | Never Tell Me The Odds          |  |  | [day24.rs](./src/day24.rs) |  |-->
@@ -50,3 +50,4 @@ All solutions linked below:
 12. For day 16, this was my first time writing a depth-first search, and it ran perfectly on the first attempt :exploding_head:. Because I tend to write these solutions generalised for robustness, it effectively meant part 2 was already solved as well.
 13. For day 17, I was originally going for Dijkstra's, but decided to needlessly overcomplicate things by usinga heuristic, and included a visualiser to see the shortest path discovered. This could be a bit faster though.
 14. Day 18 basically reused the shoelace formula and Pick's theorem from day 10. It's not clear why part 2 consistnently run twice as fast as part 1 even though they both use the exact same function.
+15. Day 21 spent far too long trying to bug hunt, and it turns out it wasn't a math problem, it was a very basic problem involving the features I'm excluding.
