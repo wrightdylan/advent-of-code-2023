@@ -3,7 +3,7 @@ name = "aoc_2023"
 version = "0.1.0"
 author = ["Dylan Wright"]
 edition = "2021"
-rust-version = "1.76.0"
+rust-version = "1.77.1"
 
 [registeries.crates-io]
 protocol = "sparse"
@@ -12,7 +12,7 @@ protocol = "sparse"
 aoc-runner = "0.3.0"
 aoc-runner-derive = "0.3.0"
 num = "0.4.1"
-rayon = "1.8.0"
+rayon = "1.10.0"
 
 [build]
 target = ["x86_64-unknown-linux-gnu"]
@@ -24,8 +24,8 @@ opt-level = 1
 opt-level = 1
 
 [profile.release]
-strip = true      # Automagically strip symbols from the library
+strip = "symbols" # Automagically strip symbols from the library
 opt-level = "z"   # Highest optimisation
-lto = true        # Enable link time optimisation
+lto = "fat"       # Enable link time optimisation
 codegen-units = 1 # Maximise size reduction optimisation
 panic = 'abort'   # Aborts on panic
