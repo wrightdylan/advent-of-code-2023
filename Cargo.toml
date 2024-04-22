@@ -13,6 +13,7 @@ aoc-runner = "0.3.0"
 aoc-runner-derive = "0.3.0"
 num = "0.4.1"
 rayon = "1.10.0"
+z3 = "0.12.1"
 
 [build]
 target = ["x86_64-unknown-linux-gnu"]
