@@ -32,8 +32,8 @@ All solutions linked below:
 | [21](https://adventofcode.com/2023/day/21) | Step Counter                    | 2.31ms | 120ms  | [day21.rs](./src/day21.rs) | :persevere:    |
 | [22](https://adventofcode.com/2023/day/22) | Sand Slabs                      | 14.4µs | 10.3ms | [day22.rs](./src/day22.rs) | :confounded:   |
 | [23](https://adventofcode.com/2023/day/23) | A Long Walk                     | 20.1µs | 2.351s | [day23.rs](./src/day23.rs) | :cursing_face: |
-| [24](https://adventofcode.com/2023/day/24) | Never Tell Me The Odds          | 858µs  | 2.638s | [day24.rs](./src/day24.rs) | :roll_eyes: |
-<!--| [25](https://adventofcode.com/2023/day/25) | Snowverload                     |  |  | [day25.rs](./src/day25.rs) |  |-->
+| [24](https://adventofcode.com/2023/day/24) | Never Tell Me The Odds          | 858µs  | 2.638s | [day24.rs](./src/day24.rs) | :roll_eyes:    |
+| [25](https://adventofcode.com/2023/day/25) | Snowverload                     | 40.3ms | ------ | [day25.rs](./src/day25.rs) | :nerd_face:    |
 
 ## Notes
 1. Binge watching Travellers wasn't helping me keep up with the Advent Calendar. If only it was chocolate :chocolate_bar:.
@@ -54,3 +54,4 @@ All solutions linked below:
 16. Getting false positives in Day 22 tests was not helping matters much.
 17. Day 23 saw some major procrastination where I ended up watching all of The Recruit and 3 Body Problem. The initial successful debug run took 254.7s! Unsure how to shoehorn in rayon for extra brute force. Must try the NRMCMC SAW algorithm at some point.
 18. Day 24 was just awful, and more of an exercise in high level maths than an actual coding problem.
+19. Day 25, as with any Monte-Carlo simulation, success depends on the number of runs. I have managed to get a successful run with just 10 iterations, but to improve odds, an increased number would be needed, but it's still no guarantee. 10 runs on single thread takes about 40ms, but for a larger number of runs I have parallelised the iterator to get through runs faster. Also, there's no part 2 for the last day.
