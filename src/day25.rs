@@ -68,6 +68,7 @@ impl SuperVertex {
                 union_edges.push(edge);
             }
         }
+        union_edges.retain(|edge| !duplicates.contains(edge));
 
         (SuperVertex::new(union_vertices, union_edges), duplicates)
     }
